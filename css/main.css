@@ -1,0 +1,73 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body { background-color: #000; font-family:arial, sans-serif;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image: url(/img/space-back.png), url(/img/space-mid.png), url(/img/space-front.png);
+}
+@font-face {
+    font-family: 'Bit Darling10 (sRB)';
+    src: url('../fonts/bitdarling10srb.eot');
+    src: url('../fonts/bitdarling10srb.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitdarling10srb.woff') format('woff'),
+         url('../fonts/bitdarling10srb.ttf') format('truetype'),
+         url('../fonts/bitdarling10srb.svg#Bit Darling10 (sRB)') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VisitorTT2BRK';
+    src: url('../fonts/visitor2.eot');
+    src: url('../fonts/visitor2.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/visitor2.woff') format('woff'),
+         url('../fonts/visitor2.ttf') format('truetype'),
+         url('../fonts/visitor2.svg#VisitorTT2BRK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, h3 { font-family:'Bit Darling10 (sRB)', arial, sans-serif;}
+p { font-family:arial, sans-serif;}
+.logo { text-align: center;}
+table th {font-family:arial, sans-serif;}
+table td {
+    height:40px;
+}
+
+/* MQ */
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  h1 { font-size: 30px !important;} h2 { font-size: 22px !important;} h3 { font-size: 16px !important;}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .meh {
+        display:none;
+    }
+    .well {
+        padding-left:12px;
+    }
+  h1 { font-size: 30px !important;} h2 { font-size: 22px !important;} h3 { font-size: 16px !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
